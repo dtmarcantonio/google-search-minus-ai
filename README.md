@@ -66,11 +66,7 @@ Unlike other solutions that simply hide AI Overviews with CSS (after they've alr
 
 ### Permanent Installation
 
-
-
-To permanently install the extension, you'll need to reload it each time you restart Firefox using the steps above, or package and sign it through Mozilla's Add-on store.
-
-
+Currently the extension isn't available on the Firefox store. If you use Firefox Developer Edition or Firefox Nightly then you can permanently add unsigned extensions.
 
 ## How It Works
 
