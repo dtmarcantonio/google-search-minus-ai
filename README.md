@@ -1,4 +1,4 @@
-\# Google Search Minus AI
+# Google Search Minus AI
 
 
 
@@ -6,7 +6,7 @@ A lightweight Firefox extension that automatically appends `-ai` to your Google 
 
 
 
-\## Why This Extension?
+## Why This Extension?
 
 
 
@@ -14,13 +14,13 @@ Google's AI Overviews use significant server-side compute resources to generate 
 
 
 
-\- \*\*Prevents AI Overview generation\*\* - Google doesn't run the generative AI layer at all
+- **Prevents AI Overview generation** - Google doesn't run the generative AI layer at all
 
-\- \*\*Saves compute resources\*\* - Reduces server-side processing and energy consumption
+- **Saves compute resources** - Reduces server-side processing and energy consumption
 
-\- \*\*Provides faster results\*\* - Skip the AI generation step entirely
+- **Provides faster results** - Skip the AI generation step entirely
 
-\- \*\*Returns traditional search results\*\* - Get the classic Google search experience you're used to
+- **Returns traditional search results** - Get the classic Google search experience you're used to
 
 
 
@@ -28,43 +28,43 @@ Unlike other solutions that simply hide AI Overviews with CSS (after they've alr
 
 
 
-\## Features
+## Features
 
 
 
-\- Automatic query modification - no manual typing needed
+- Automatic query modification - no manual typing needed
 
-\- Works seamlessly with Firefox's address bar search (Ctrl+T)
+- Works seamlessly with Firefox's address bar search (Ctrl+T)
 
-\- Transparent operation - you can see the `-ai` operator in your search query
+- Transparent operation - you can see the `-ai` operator in your search query
 
-\- Minimal permissions - only intercepts Google search requests
+- Minimal permissions - only intercepts Google search requests
 
-\- Lightweight - no background processing or resource overhead
-
-
-
-\## Installation
+- Lightweight - no background processing or resource overhead
 
 
 
-\### Temporary Installation (for testing)
+## Installation
 
 
 
-1\. Download or clone this repository
-
-2\. Open Firefox and navigate to `about:debugging`
-
-3\. Click "This Firefox" in the left sidebar
-
-4\. Click "Load Temporary Add-on"
-
-5\. Navigate to the extension folder and select `manifest.json`
+### Temporary Installation (for testing)
 
 
 
-\### Permanent Installation
+1. Download or clone this repository
+
+2. Open Firefox and navigate to `about:debugging`
+
+3. Click "This Firefox" in the left sidebar
+
+4. Click "Load Temporary Add-on"
+
+5. Navigate to the extension folder and select `manifest.json`
+
+
+
+### Permanent Installation
 
 
 
@@ -72,7 +72,7 @@ To permanently install the extension, you'll need to reload it each time you res
 
 
 
-\## How It Works
+## How It Works
 
 
 
@@ -80,11 +80,11 @@ The extension uses Firefox's `webRequest` API to intercept Google search request
 
 
 
-1\. Extracts the search query from the URL
+1. Extracts the search query from the URL
 
-2\. Appends ` -ai` to the query (if not already present)
+2. Appends ` -ai` to the query (if not already present)
 
-3\. Redirects to the modified URL
+3. Redirects to the modified URL
 
 
 
@@ -92,29 +92,29 @@ This happens transparently - you won't notice any difference except cleaner, AI-
 
 
 
-\## Technical Details
+## Technical Details
 
 
 
-\*\*Files:\*\*
+**Files:**
 
-\- `manifest.json` - Extension configuration
+- `manifest.json` - Extension configuration
 
-\- `background.js` - Request interception logic
-
-
-
-\*\*Permissions:\*\*
-
-\- `webRequest` - To intercept search requests
-
-\- `webRequestBlocking` - To modify requests before they're sent
-
-\- `<all\_urls>` - To access Google search URLs
+- `background.js` - Request interception logic
 
 
 
-\## Contributing
+**Permissions:**
+
+- `webRequest` - To intercept search requests
+
+- `webRequestBlocking` - To modify requests before they're sent
+
+- `<all_urls>` - To access Google search URLs
+
+
+
+## Contributing
 
 
 
@@ -122,7 +122,7 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 
 
 
-\## License
+## License
 
 
 
@@ -130,7 +130,7 @@ MIT License - feel free to use and modify as needed.
 
 
 
-\## Acknowledgments
+## Acknowledgments
 
 
 
